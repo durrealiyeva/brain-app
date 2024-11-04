@@ -1,0 +1,73 @@
+body{
+    color:var(--blackColor);
+  }
+  header{
+    text-align: center;
+    padding: 26px 0;
+  }
+  h1{
+    font: 700 24px/28px var(--fontRubik);
+  }
+  main{
+    background-color: var(--graybgColor);
+  }
+  .head-section{
+    text-align: center;
+    padding-top: 125px;
+  }
+  h2{
+    font:700 60px/65px var(--fontRoboto);
+    padding-bottom: 34px;
+  }
+  .head-section p{
+    font: 400 19px/32px var(--fontRoboto);
+    padding-bottom: 55px;
+    opacity: 70%;
+  }
+  .form-section{
+    margin: 0 auto;
+    width: 350px;
+    border-radius:10px;
+    border: 1px solid var(--grayColor);
+    box-shadow: 0px 34px 33px -23px rgba(22, 28, 45, 0.13);
+    padding: 30px 26px;
+    background-color: #fff;
+  }
+  .form p {
+    text-align: center;
+    margin-top: 39px;
+    padding-bottom: 158px;
+    font: 400 17px/28px var(--fontRoboto);
+  }
+  a{
+    color: var(--blueColor);
+  }
+  label{
+    font: 700 15px/26px var(--fontRoboto);
+  }
+  input{
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--grayColor);
+    padding: 12px 18px;
+    font: 400 15px/26px var(--fontRoboto);
+    margin-bottom: 26px;
+    margin-top: 7px;
+  }
+  button{
+    margin-top: 44px;
+    width: 100%;
+    padding: 14px 0;
+    background-color:var(--blueColor);
+    border-radius: 8px;
+    border: none;
+    font: 700 17px/32px var(--fontRoboto);
+    color: #fff;
+  }
+  button:hover{
+    background-color: rgb(5, 5, 81);
+  }
+  .back{
+    padding-bottom: 50px;
+    text-align: center;
+  }
