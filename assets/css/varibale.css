@@ -1,0 +1,16 @@
+:root{
+    --fontRoboto:"Roboto", sans-serif;
+    --fontRubik: "Rubik", sans-serif;
+    --bgColor:rgba(104, 213, 133, 0.1);
+    --whiteColor: rgba(255, 255, 255, 1);
+    --blackColor: rgba(22, 28, 45, 1);
+    --brightColor: rgba(251, 109, 69, 1);
+    --darkblueColor: rgba(22, 28, 45, 1);
+    --blueColor:rgba(71, 59, 240, 1);
+    --greenColor: rgba(104, 213, 133, 1);
+    --greenbgColor:rgba(86, 205, 93, 1);
+    --grayColor:rgba(231, 233, 237, 1);
+    --graybgColor: rgba(244, 247, 250, 1);
+    --lightColor: rgba(244, 247, 250, 1);
+    --redColor: rgba(246, 75, 75, 1);
+}

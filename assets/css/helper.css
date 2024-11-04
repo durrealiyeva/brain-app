@@ -1,0 +1,66 @@
+/* Fontlar */
+
+.head_logo,
+.foot_left_title {
+  font: 700 28px/34px var(--fontRubik);
+}
+.navlink,
+.head_btn {
+  font: 700 15px/26px var(--fontRoboto);
+}
+.job_title,.title {
+  font: 700 60px/65px var(--fontRoboto);
+}
+.job_text,
+.company_text,
+.category_text,
+.step_text,
+.topjobs_text,
+.mail_text,
+.help_text,.text {
+  font: 400 19px/32px var(--fontRoboto);
+}
+.note,.blog,.info,.intro{
+    font: 700 19px/32px var(--fontRoboto);
+}
+.company_title,
+.category_title,
+.step_title,
+.topjobs_title,
+.help_title,
+.mail_title {
+  font: 700 36px/48px var(--fontRoboto);
+}
+.card_title,
+.glow_title,
+.jobs_name,
+.help_box_info {
+  font: 700 21px/32px var(--fontRoboto);
+}
+.card_info,
+.info_new,
+.help_box_text,
+.mail_info,
+.foot_left_text,
+.foot_card h4,
+.jobs_place{
+  font: 400 15px/26px var(--fontRoboto);
+}
+.info_view,
+.number span {
+  font: 700 17px/29px var(--fontRoboto);
+}
+.jobs_link {
+  font: 700 14px/16px var(--fontRoboto);
+}
+.foot_link {
+  font: 400 17px/40px var(--fontRoboto);
+}
+.blog_list {
+    font: 400 17px/50px var(--fontRoboto);
+  }
+.content,.note_text,.info_text,.info_item,.intro_text,.glow_text {
+    font: 400 17px/29px var(--fontRoboto);
+  }
+
+  
