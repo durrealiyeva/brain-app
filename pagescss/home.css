@@ -1,0 +1,539 @@
+body {
+    color: var(--blackColor);
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  /* HEADER */
+  
+  /* HEAD */
+  header {
+    margin-bottom: 114px;
+    background:var(--bgColor) url(../img/headbg.svg) no-repeat 100%/100% ;
+  }
+  .head {
+    padding: 20px 0px 110px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navitem {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .navlink,
+  .head_btn {
+    color: var(--blackColor);
+  }
+  .btns {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .navlink:hover,
+  .head_btn:hover {
+    color: var(--brightColor);
+  }
+  .active {
+    color: var(--brightColor);
+  }
+  .menubar{
+    display:none;
+  }
+  /* HEAD JOB */
+  .job {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    padding-left: 90px;
+  }
+  .job_left {
+    padding-right: 170px;
+  }
+  .job_title {
+    width: 350px;
+    padding-bottom: 22px;
+  }
+  .job_text {
+    width: 368px;
+    opacity: 70%;
+  }
+  
+  /* MAIN */
+  
+  /* SECTION COMPANY */
+  .company {
+    padding-bottom: 125px;
+  }
+  .company_head {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .company_title {
+    padding-bottom: 30px;
+  }
+  .company_text {
+    width: 686px;
+    opacity: 70%;
+    padding-bottom: 60px;
+  }
+  .company_body {
+    display: flex;
+    justify-content: center;
+  }
+  .company_body figure {
+    width: 766px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+  .company_body figure:last-child {
+    justify-content: center;
+  }
+  
+  /* SECTION CATEGORY */
+  .category {
+    padding: 132px 0 144px 0;
+    background-color: var(--darkblueColor);
+    color: var(--whiteColor);
+  }
+  .category_title {
+    padding-bottom: 20px;
+  }
+  .category_text {
+    width: 392px;
+    opacity: 65%;
+    padding-bottom: 65px;
+  }
+  .category_body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .category_card {
+    width: 350px;
+    background-color: var(--whiteColor);
+    border-radius: 10px;
+    padding: 28px 32px;
+    color: var(--blackColor);
+    transition: all 0.5ms;
+  }
+  .category_card:hover {
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+    transform: translateY(-10px);
+  }
+  .card_active {
+    background-color: var(--blueColor);
+    color: var(--whiteColor);
+    transform: translateY(-10px);
+  }
+  .card_title {
+    padding-bottom: 5px;
+  }
+  .card_info {
+    opacity: 70%;
+  }
+  
+  /* SECTION STEP */
+  .step {
+    padding: 112px 0 116px 0;
+    border-bottom: 1px solid var(--grayColor);
+  }
+  .step_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .step_title {
+    padding-bottom: 17px;
+  }
+  .step_text {
+    width: 590px;
+    opacity: 70%;
+    padding-bottom: 96px;
+  }
+  .step_body {
+    padding: 46px;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+  }
+  .step_body_left {
+    width: 540px;
+    height: 614px;
+    position: relative;
+  }
+  .step_img {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  .step_fon {
+    position: absolute;
+    z-index: 0;
+    top: 67px;
+    left: 100px;
+  }
+  .step_box {
+    width: 350px;
+    border-radius: 10px;
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    bottom: 140px;
+    left: -46px;
+    z-index: 2;
+    animation: bounce 1s;
+  }
+  .step_box:hover {
+    animation: hoverBounce 0.5s infinite;
+    box-shadow: 0px 62px 64px -10px rgba(1, 23, 48, 0.12);
+  }
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes hoverBounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .bell {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--greenColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .info_new {
+    opacity: 70%;
+  }
+  
+  .step_body_right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .step_card {
+    width: 404px;
+    display: flex;
+    gap: 22px;
+  }
+  .number {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--blueColor);
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    color: var(--whiteColor);
+    margin-top: 6px;
+  }
+  .glow_title {
+    padding-bottom: 10px;
+  }
+  .glow_text {
+    opacity: 70%;
+  }
+  
+  /* SECTION TOP-JOBS */
+  .topjobs {
+    padding: 108px 0 140px 0;
+    background: url(../img/headbg.svg) no-repeat 100%/100% ;
+  }
+  .topjobs_head {
+    display: flex;
+    align-items: center;
+    gap: 57%;
+  }
+  .topjobs_title {
+    padding-bottom: 17px;
+  }
+  .topjobs_text {
+    width: 350px;
+    opacity: 70%;
+  }
+  .right {
+    width: 80px;
+    height: 44px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: var(--graybgColor);
+    display: flex;
+    gap: 20px;
+    align-self: flex-end;
+  }
+  
+  .right i {
+    width: 15px;
+    height: 15px;
+    color: var(--blackColor);
+  }
+  .topjobs_body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 84px ;
+  }
+  .jobs_card {
+    width: 255px;
+    background-color: var(--whiteColor);
+    padding: 40px;
+    border: 1px solid var(--grayColor);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 70px;
+    transition: all 0.5ms;
+  }
+  .jobs_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 34px 33px -23px rgba(22, 28, 45, 0.13);
+  }
+  .jobs_link {
+    color: var(--greenColor);
+    text-transform: uppercase;
+    letter-spacing: 1.63px;
+  }
+  .blue{
+    color: var(--blueColor);
+  }
+  .red{
+    color: var(--redColor);
+  }
+  .jobs_name{
+    padding-top: 17px;
+  }
+  .jobs_place{
+    opacity: 70%;
+  }
+  .job_box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .spot {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dorfus {
+    background-color: var(--blueColor);
+  }
+  .coworks {
+    background-color: var(--brightColor);
+  }
+  .askimat {
+    background-color: var(--blueColor);
+  }
+  .greener {
+    background-color: var(--greenbgColor);
+  }
+  .job_box span {
+    font: 700 19px/32px var(--fontRoboto);
+  }
+  
+  /* HELP */
+  
+  .help {
+    background-color: var(--lightColor);
+    padding: 98px 0 140px 0;
+  }
+  .help_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .help_title {
+    padding-bottom: 18px;
+  }
+  .help_text {
+    width: 500px;
+    opacity: 70%;
+    padding-bottom: 74px;
+  }
+  .help_body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px;
+  }
+  .help_card {
+    width: 350px;
+    border-radius: 10px;
+    background-color: var(--whiteColor);
+    transition: all 0.5ms;
+  }
+  .help_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 34px 33px -23px rgba(22, 28, 45, 0.13);
+  }
+  .help_box {
+    padding: 25px 32px;
+  }
+  .help_box_text {
+    opacity: 70%;
+    padding-bottom: 10px;
+  }
+  .help_box_info {
+    width: 290px;
+    letter-spacing: -0.5px;
+  }
+  
+  /* MAIL */
+  .mail {
+    margin: 120px auto;
+    text-align: center;
+  }
+  .mail_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mail_icon {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: var(--greenColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .mail_title {
+    padding-bottom: 20px;
+  }
+  .mail_text {
+    width: 500px;
+    opacity: 70%;
+    padding-bottom: 40px;
+  }
+  .mail_form {
+    position: relative;
+    margin-bottom: 25px;
+  }
+  .mail_input {
+    width: 500px;
+    height: 64px;
+    padding: 24px;
+    border: 1px solid var(--grayColor);
+    border-radius: 8px;
+    font-size: 20px;
+  }
+  .mail_input::placeholder {
+    font: 400 15px var(--fontRoboto);
+    color: var(--blackColor);
+    opacity: 70%;
+  }
+  .mail_btn {
+    width: 166px;
+    height: 50px;
+    background-color: var(--blueColor);
+    border: none;
+    border-radius: 8px;
+    font: 700 17px var(--fontRoboto);
+    color: var(--whiteColor);
+    position: absolute;
+    right: 6px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    transition: all 0.5ms;
+  }
+  .mail_btn:hover {
+    right: 8px;
+    transform: scale(1.05);
+  }
+  .mail_info {
+    width: 340px;
+    opacity: 70%;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+  }
+  .foot {
+    padding: 122px 0 165px 0;
+    display: flex;
+  }
+  .foot_left {
+    flex-grow: 1;
+  }
+  .foot_left_title {
+    padding-bottom: 36px;
+  }
+  .foot_left_text {
+    width: 274px;
+    opacity: 65%;
+    padding-bottom: 44px;
+  }
+  .social {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    transition: all 0.5ms;
+  }
+  .social img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .foot_right {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    flex-grow: 3;
+  }
+  .foot_card h4 {
+    opacity: 65%;
+    padding-bottom: 20px;
+  }
+  .foot_link {
+    color: var(--whiteColor);
+    padding-bottom: 20px;
+  }
+  .foot_list{
+    transition: all 0.5ms;
+  }
+  .foot_list:hover{
+    transform: scale(1.05);
+  }
+  .gear{
+    display: none;
+  }

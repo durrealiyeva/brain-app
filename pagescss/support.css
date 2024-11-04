@@ -1,0 +1,151 @@
+body {
+    overflow-x: hidden;
+      color: var(--blackColor);
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+  
+    /* HEAD */
+    .head {
+      padding: 20px 0px 110px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .navitem {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+    .btns {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+    }
+    .navlink,
+    .head_btn {
+      color: var(--blackColor);
+    }
+    .navlink:hover,
+    .head_btn:hover {
+      color: var(--brightColor);
+    }
+    .active {
+      color: var(--brightColor);
+    }
+  
+    /* MAIN */
+    main{
+      width: 736px;
+      padding-bottom: 210px;
+      margin: 0 auto;
+    }
+   .post{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+  .title{
+      padding-bottom: 44px;
+  }
+  .text{
+      width: 640px;
+      padding-bottom: 70px;
+      opacity: 70%;
+  }
+  .content{
+      padding-bottom: 44px;
+      opacity: 70%;
+  }
+  .note{
+      padding-bottom: 20px;
+  }
+  .note_text{
+      padding-bottom: 44px;
+      opacity: 70%;
+  }
+  .blog{
+      padding-bottom: 12px;
+  }
+  .blog_item{
+      padding-left: 20px;
+  }
+  .blog_list{
+      list-style-type: disc;
+  }
+  .blog_list span{
+      opacity: 70%;
+  }
+  .info{
+      padding-bottom: 20px;
+      margin-top: 42px;
+  }
+  .info_text{
+      padding-bottom: 44px;
+      opacity: 70%;
+  }
+  .info_item{
+      padding-bottom: 44px;
+      opacity: 70%;
+  }
+  .intro{
+      padding-bottom: 20px;
+  }
+  .intro_text{
+      opacity: 70%;
+  }
+    /* FOOTER */
+  footer {
+      background-color: var(--blackColor);
+      color: var(--whiteColor);
+    }
+    .foot {
+      padding: 122px 0 165px 0;
+      display: flex;
+    }
+    .foot_left {
+      flex-grow: 1;
+    }
+    .foot_left_title {
+      padding-bottom: 36px;
+    }
+    .foot_left_text {
+      width: 274px;
+      opacity: 65%;
+      padding-bottom: 44px;
+    }
+    .social {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      transition: all 0.5ms;
+    }
+    .social img:hover{
+      transform: scale(1.1);
+    }
+    .foot_right {
+      display: flex;
+      gap: 50px;
+      justify-content: space-evenly;
+      flex-grow: 3;
+    }
+    .foot_card h4 {
+      opacity: 65%;
+      padding-bottom: 20px;
+    }
+    .foot_link {
+      color: var(--whiteColor);
+      padding-bottom: 20px;
+    
+    }
+    .foot_list{
+      transition: all 0.5ms;
+    }
+    .foot_list:hover{
+      transform: scale(1.05);
+    }
+    
