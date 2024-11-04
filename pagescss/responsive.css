@@ -1,0 +1,70 @@
+@media only screen and (max-width: 900px) {
+    header{
+        padding: 10px 50px;
+    }
+   .menubar {
+    display: flex;
+    font-size: 35px;
+    color: var(--blackColor);
+   }
+   .navbar,.head_btn{
+    display: none;
+   }
+   .job{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .job figure{
+      width: 300px;
+      height: 305px;
+   }
+   .category_head,.topjobs_head,.foot{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .category_body{
+    display: flex;
+    justify-content: center;
+   }
+   .step_body{
+    display: flex;
+    flex-direction: column;
+   }
+   .topjobs_head{
+    gap: 20px;
+   }
+   .right{
+    align-self: center;
+   }
+   .topjobs_body,.help_body{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+   }
+   .foot{
+    padding: 50px;
+   }
+   .foot_left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   }
+   .foot_right{
+    display: none;
+   }
+   .gear{
+    display: block;
+    font-size: 35px;
+    padding-top: 40px;
+    transition: all 0.5ms;
+   }
+   .gear:hover{
+      transform: scale(1.05);
+      cursor: pointer;
+   }
+  }
